@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 Gestion_produit/public/
+web: heroku-php-apache2 Gestion_produit/public/
