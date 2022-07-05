@@ -1134,6 +1134,6 @@ class __TwigTemplate_f583a2acc4d4339cdc5e38536b6b99dd extends Template
 
 </body>
 </html>
-", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\Users\\sulem\\Desktop\\projet_symfony_GestionProduit\\Gestion_produit\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
+", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\Users\\sulem\\Desktop\\projet_cloud_campus\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
     }
 }

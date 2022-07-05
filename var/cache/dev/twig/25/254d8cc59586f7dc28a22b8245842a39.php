@@ -164,6 +164,6 @@ class __TwigTemplate_fa0de5e5b839862046a266c8a91322dd extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\Users\\sulem\\Desktop\\projet_symfony_GestionProduit\\Gestion_produit\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\sulem\\Desktop\\projet_cloud_campus\\templates\\base.html.twig");
     }
 }
