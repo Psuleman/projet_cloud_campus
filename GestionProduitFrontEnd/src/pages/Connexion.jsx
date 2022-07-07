@@ -1,4 +1,3 @@
-import "../assets/scss/security.scss";
 import { Link } from "react-router-dom";
 
 import TemplateSecurity from '../components/layout/TemplateSecurity'

@@ -1,0 +1,23 @@
+$vert: #08712C;
+$blanc : #FFF;
+$grisDa : #DADADA;
+$gris : #D9D9D9;
+$fs_footer : 0.7rem;
+
+.notification{
+	border-bottom: solid $gris 1px;
+	padding:  10px 0 10px 0; /*haut droite bas gauche*/
+	text-align: justify;
+
+	header{
+		font-weight: bold;
+	}
+
+	em{
+		color: $vert;
+	}
+}
+
+.notification:last-child{
+	border-bottom: none;
+}

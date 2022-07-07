@@ -1,0 +1,42 @@
+$vert: #08712C;
+$blanc : #FFF;
+$grisDa : #DADADA;
+$gris : #D9D9D9;
+$fs_footer : 0.7rem;
+$hauteur_header: 60px; 
+$padding_container: 20px;
+$margin_container: 0.5%;
+
+
+.form{
+	display: flex;
+
+
+	height: calc(100vh - $hauteur_header - ($padding_container * 2) - ($margin_container *2 )) ;
+
+	
+		form{
+			padding: 10px;
+			max-width: 50%;
+			min-width: 30%;
+			margin: auto;
+			border: solid 1px $gris;
+
+
+			>small{
+				color : red;
+				font-size: 0.80rem;
+				display: block;
+				text-align: center;
+			}
+
+			>div{
+				display: flex;
+				flex-direction: column;
+				margin: 15px;
+
+			}
+
+		}		
+	
+}

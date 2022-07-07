@@ -1,3 +1,5 @@
+import "../../assets/scss/security.scss";
+
 const TemplateSecurity = ({children}) => {
 	return (
 		<div id="template-security">

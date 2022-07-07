@@ -87,15 +87,15 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			>.logo{
-				width: 70px;
-				height: 15px;
-				background: red;
-			}
+			
 		}
 
 }
-
+.logo{
+	width: 70px;
+	height: 15px;
+	background: red;
+}
 
 .link{
 	text-decoration: none;
