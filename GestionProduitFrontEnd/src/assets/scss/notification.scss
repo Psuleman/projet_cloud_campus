@@ -1,8 +1,4 @@
-$vert: #08712C;
-$blanc : #FFF;
-$grisDa : #DADADA;
-$gris : #D9D9D9;
-$fs_footer : 0.7rem;
+@import 'variable.scss';
 
 .notification{
 	border-bottom: solid $gris 1px;

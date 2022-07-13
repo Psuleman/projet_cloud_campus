@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../assets/scss/template.scss";
 
 
-const Template = ({children}) => {
+const Template2 = ({children}) => {
 	return (
 		<div id="template">
 			<header id="navbar-horizontale">
@@ -34,33 +34,26 @@ const Template = ({children}) => {
 					<ul>
 						<li><Link className="link-navbar" to="/liste-produit">Liste des produits</Link></li>
 						{
-							/** Gestionnaire de stock **/
-						}
+							/** Gestionnaire de stock
+							 *						
 						<li><Link className="link-navbar" to="/nouveau-produit">Nouveau produit</Link></li>
-						<li>
-							<ul><Link className="link-navbar" to="/expedition">Expédition</Link>
-								<li><Link className="link-navbar" to="/produit-expediee">Produit expédiée</Link></li>
-								<li><Link className="link-navbar" to="/produit-non-expediee">Produit non expédiée</Link></li>
-							</ul>
-						</li>
+						<li><Link className="link-navbar" to="/expedition">Expédition</Link></li>  
+							 */
+						}
 
 						{
-							/** admin 
-						<li><Link className="link-navbar" to="/export">Export</Link></li>
-						<li><Link className="link-navbar" to="/achat">Achat</Link></li>
+							/** admin **/
+						}
 						<li><Link className="link-navbar" to="/referencement-produit">Referencement Produit</Link></li>
 						<li><Link className="link-navbar" to="/produit-a-modifier">Produit à modifier</Link></li>
-						<li><Link className="link-navbar" to="/gestion-utilisateur">Gestion utilisateur</Link></li>	
-							 * 
-							 * **/
-						}					
-
+						<li><Link className="link-navbar" to="/export">Export</Link></li>
+						<li><Link className="link-navbar" to="/achat">Achat</Link></li>
 						<li><Link className="link-navbar" to="/mon-compte">Mon compte</Link></li>
 						<li className="display-nav">
 							<Link className="link-navbar" to="/notification">Notification</Link>
 							<div className="nbr-navbar"><p>2</p></div>
 						</li>
-						<li><Link className="link-navbar" to="/export">Vue Admin</Link></li>
+						<li><Link className="link-navbar" to="/gestion-utilisateur">Gestion utilisateur</Link></li>						
 					</ul>
 				</nav>
 				<aside>
@@ -99,4 +92,4 @@ const Template = ({children}) => {
 		)
 }
 
-export default Template;
+export default Template2;

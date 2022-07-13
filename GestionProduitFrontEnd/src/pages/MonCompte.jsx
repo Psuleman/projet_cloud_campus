@@ -23,7 +23,7 @@ const MonCompte = () => {
 						<label>Nouveau mot de passe</label>
 						<input type="password" required />
 					</div>
-					<button className="btn">Valider</button>					
+					<button className="btn">Terminer</button>					
 				</form>
 			</section>
 		</Template>
