@@ -3,14 +3,17 @@ import { Link, useNavigate } from "react-router-dom";
 import TemplateSecurity from '../components/layout/TemplateSecurity'
 
 const Connexion = () => {
+	//variable
 	let navigate = useNavigate();
 	
+	//fonction
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		let path = `/liste-produit`
     	navigate(path)
 	}
 
+	//render
 	return (
 		<TemplateSecurity>
 			<header>

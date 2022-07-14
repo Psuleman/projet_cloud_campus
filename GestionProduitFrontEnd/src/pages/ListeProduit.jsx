@@ -11,6 +11,7 @@ const ListeProduit = () => {
 				<thead>
 					<tr>
 						<th>SKU</th>
+						<th>RECU LE</th>
 						<th>SAISON</th>
 						<th>MARQUE</th>
 						<th>UNIVERS</th>

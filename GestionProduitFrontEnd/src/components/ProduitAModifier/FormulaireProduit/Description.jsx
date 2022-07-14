@@ -1,6 +1,7 @@
 const Description = ({handleClickList}) => {
 	return (
 		<section>
+			<h3>Déscription</h3>
 			<div>
 				<label>Nom produit FR</label>
 				<input type="text"  />
@@ -16,12 +17,7 @@ const Description = ({handleClickList}) => {
 			<div>
 				<label>Description produit EN</label>
 				<input type="text"  />
-			</div>			
-
-			<div>
-				<button className="btn" onClick={handleClickList}>Voir la liste</button>
-				<button className="btn">Suivant</button>
-			</div>					
+			</div>						
 						
 		</section>
 		)

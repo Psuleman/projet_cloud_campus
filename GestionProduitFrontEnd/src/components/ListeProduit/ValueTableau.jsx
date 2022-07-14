@@ -2,6 +2,7 @@ const ValueTableau = () => {
 	return (
 			<tr>
 				<td>258</td>
+				<td>25/02/2022</td>
 				<td>SS22</td>
 				<td>Zara</td>
 				<td>Femme</td>

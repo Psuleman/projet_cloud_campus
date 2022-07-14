@@ -1,8 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../../assets/scss/template.scss";
 
 
+
 const Template = ({children}) => {
+	//variable
+	let navigate = useNavigate();
+
+	//fonction
+	const handleClickLogout = () => {
+		let path = `/`
+    	navigate(path)
+	}
+
+	//render
 	return (
 		<div id="template">
 			<header id="navbar-horizontale">
@@ -18,7 +29,7 @@ const Template = ({children}) => {
 					<section>
 						<div id="avatar"><img src="" alt="A" /></div>
 						
-						<button className="btn">Déconnexion</button>
+						<button className="btn" onClick={handleClickLogout}>Déconnexion</button>
 					</section>
 				</div>
 			</header>
